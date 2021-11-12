@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkham Hang Man</title>
+    <link rel="stylesheet" href="arkham.css">
+</head>
+<body>
+    <main>
+        <h1>Arkham City</h1>
+        <div id="gallows">
+          <img id="hangmanImage" src="img/hangman0">
+        </div>
+        <div id="word"></div>
+        <br>
+        <div id="controls">
+          <input type="text" id="guessBox">
+          <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+          <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+          <br>
+          <br>
+        </div>
+        <br>
+        <div id="guesses"></div>
+      </main>   
+     <script src="arkham.js"></script>
+    </body>
+  </html>
